@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHANdler, MessageHAndler, filters, ContextTypes
 
 TOKEN: Final = 'ENTER your token '
-BOT_USERNAME: Final = '@B_man1bot'
+BOT_USERNAME: Final = 'enteryourbotname'
 
 #commands
 async def start_command (update: Update, context: ContextTypes.DEFAULT_TYPES):
